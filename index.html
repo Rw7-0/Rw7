@@ -19,12 +19,26 @@ if (isset($_POST)){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rw7</title>
+    <title>Document</title>
 </head>
 <body>
     <div>
-        <input type="email"><br>
-        <input type="password"><br>
+        <form action="" method="POST">
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required placeholder="Email"><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required placeholder="password"><br>
+            <input type="submit" value="Submit"><br>
     </div>
+    <style>
+              body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f1f1f1;
+    }
+    </style>
 </body>
 </html>
