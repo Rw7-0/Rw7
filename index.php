@@ -33,10 +33,10 @@ if (isset($_POST)){
 </head>
 <body>
     <div>
-    <form action="login.html" method="POST">
+    <form action="" method="POST">
 
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required placeholder="Email"><br>
+            <label for="user">Email:</label><br>
+            <input type="user" id="user" name="user" required placeholder="user"><br>
             <label for="password">Password:</label><br>
             <input type="password" id="password" name="password" required placeholder="password"><br>
             <input type="submit" value="Submit"><br>
